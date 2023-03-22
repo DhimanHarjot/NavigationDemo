@@ -12,6 +12,10 @@ class FormViewController: UIViewController {
     @IBOutlet weak var firstname: UITextField!
     @IBOutlet weak var lastname: UITextField!
     @IBOutlet weak var email: UITextField!
+    @IBOutlet weak var address: UITextField!
+    @IBOutlet weak var country: UITextField!
+    @IBOutlet weak var city: UITextField!
+    @IBOutlet weak var pincode: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +27,10 @@ class FormViewController: UIViewController {
         destVC.fname = firstname.text!
         destVC.lname = lastname.text!
         destVC.Email = email.text!
+        destVC.Address = address.text!
+        destVC.Country = country.text!
+        destVC.City = city.text!
+        destVC.Pincode = pincode.text!
     }
     
 

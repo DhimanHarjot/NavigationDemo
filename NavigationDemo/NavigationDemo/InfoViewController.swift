@@ -12,10 +12,18 @@ class InfoViewController: UIViewController {
     @IBOutlet weak var firstname: UILabel!
     @IBOutlet weak var lastname: UILabel!
     @IBOutlet weak var email: UILabel!
+    @IBOutlet weak var address: UILabel!
+    @IBOutlet weak var country: UILabel!
+    @IBOutlet weak var city: UILabel!
+    @IBOutlet weak var pcode: UILabel!
     
     var fname = ""
     var lname = ""
     var Email = ""
+    var Address = ""
+    var Country = ""
+    var City = ""
+    var Pincode = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +31,10 @@ class InfoViewController: UIViewController {
         firstname.text = "First Name: " + fname
         lastname.text = "Last Name: " + lname
         email.text = "Email: " + Email
+        address.text = "Address" + Address
+        country.text = "Country" + Country
+        city.text = "City" + City
+        pcode.text = "PINCODE" + Pincode
 
         // Do any additional setup after loading the view.
     }
