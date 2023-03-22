@@ -14,6 +14,8 @@
 		4176E5BC29CB5DB5003CD7F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4176E5BA29CB5DB5003CD7F8 /* LaunchScreen.storyboard */; };
 		4176E5C729CB5DB5003CD7F8 /* NavigationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4176E5C629CB5DB5003CD7F8 /* NavigationDemoTests.swift */; };
 		4176E5D229CB5DB5003CD7F8 /* NavigationDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4176E5D129CB5DB5003CD7F8 /* NavigationDemoUITests.swift */; };
+		4176E5E029CB6B38003CD7F8 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4176E5DF29CB6B38003CD7F8 /* FormViewController.swift */; };
+		4176E5E229CB6C08003CD7F8 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4176E5E129CB6C07003CD7F8 /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4176E5CD29CB5DB5003CD7F8 /* NavigationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4176E5D129CB5DB5003CD7F8 /* NavigationDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDemoUITests.swift; sourceTree = "<group>"; };
 		4176E5D329CB5DB5003CD7F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4176E5DF29CB6B38003CD7F8 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		4176E5E129CB6C07003CD7F8 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				4176E5B829CB5DB5003CD7F8 /* Assets.xcassets */,
 				4176E5BA29CB5DB5003CD7F8 /* LaunchScreen.storyboard */,
 				4176E5BD29CB5DB5003CD7F8 /* Info.plist */,
+				4176E5DF29CB6B38003CD7F8 /* FormViewController.swift */,
+				4176E5E129CB6C07003CD7F8 /* InfoViewController.swift */,
 			);
 			path = NavigationDemo;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4176E5E029CB6B38003CD7F8 /* FormViewController.swift in Sources */,
 				4176E5B429CB5DB3003CD7F8 /* ViewController.swift in Sources */,
+				4176E5E229CB6C08003CD7F8 /* InfoViewController.swift in Sources */,
 				4176E5B229CB5DB3003CD7F8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
