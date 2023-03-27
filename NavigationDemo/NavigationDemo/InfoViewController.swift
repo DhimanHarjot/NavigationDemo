@@ -31,10 +31,10 @@ class InfoViewController: UIViewController {
         firstname.text = "First Name: " + fname
         lastname.text = "Last Name: " + lname
         email.text = "Email: " + Email
-        address.text = "Address" + Address
-        country.text = "Country" + Country
-        city.text = "City" + City
-        pcode.text = "PINCODE" + Pincode
+        address.text = "Address: " + Address
+        country.text = "Country: " + Country
+        city.text = "City: " + City
+        pcode.text = "PINCODE: " + Pincode
 
         // Do any additional setup after loading the view.
     }
