@@ -22,7 +22,10 @@ class FormViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if(segue.identifier == "toInfo")
+        {
         let destVC = segue.destination as! InfoViewController
         destVC.fname = firstname.text!
         destVC.lname = lastname.text!
@@ -31,6 +34,7 @@ class FormViewController: UIViewController {
         destVC.Country = country.text!
         destVC.City = city.text!
         destVC.Pincode = pincode.text!
+        }
     }
     
 
