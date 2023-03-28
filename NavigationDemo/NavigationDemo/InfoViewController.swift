@@ -16,6 +16,7 @@ class InfoViewController: UIViewController {
     @IBOutlet weak var country: UILabel!
     @IBOutlet weak var city: UILabel!
     @IBOutlet weak var pcode: UILabel!
+    @IBOutlet weak var password: UILabel!
     
     var fname = ""
     var lname = ""
@@ -24,6 +25,7 @@ class InfoViewController: UIViewController {
     var Country = ""
     var City = ""
     var Pincode = ""
+    var passw =  ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,6 +37,7 @@ class InfoViewController: UIViewController {
         country.text = "Country: " + Country
         city.text = "City: " + City
         pcode.text = "PINCODE: " + Pincode
+        password.text = "Password: " + passw 
 
         // Do any additional setup after loading the view.
     }

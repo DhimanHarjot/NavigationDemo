@@ -16,6 +16,7 @@ class FormViewController: UIViewController {
     @IBOutlet weak var country: UITextField!
     @IBOutlet weak var city: UITextField!
     @IBOutlet weak var pincode: UITextField!
+    @IBOutlet weak var password: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,6 +35,7 @@ class FormViewController: UIViewController {
         destVC.Country = country.text!
         destVC.City = city.text!
         destVC.Pincode = pincode.text!
+        destVC.passw = password.text!
         }
     }
     
